@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --light-orange: rgb(255, 153, 0);
+  --dark-orange: rgb(255, 102, 0);
+  --light-black: #0c0b0b;
+}
+
+* {
+  font-family: "Montserrat", serif;
+  color: white;
+}
+body {
+  background-color: #030303;
+}

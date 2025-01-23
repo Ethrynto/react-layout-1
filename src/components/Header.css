@@ -1,0 +1,42 @@
+header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+
+header .navbar {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+header .menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header .menu li a {
+    color: lightgray;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+header .menu li { transition: 0.2s ease-in-out; }
+header .menu li:hover {
+    margin-top: -5px;
+}
+header .menu li a:hover {
+    margin-top: -5px;
+    color: white;
+}

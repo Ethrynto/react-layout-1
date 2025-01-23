@@ -1,0 +1,21 @@
+.title-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.title-block .content span {
+    color: var(--dark-orange);
+    font-family: "Montserrat" ,serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title-block .content p {
+    margin-top: 5px;
+    color: white;
+    font-family: "Montserrat" ,serif;
+    font-weight: 600;
+    font-size: 32px;
+}
