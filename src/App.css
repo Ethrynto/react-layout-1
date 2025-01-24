@@ -15,6 +15,7 @@ main .container {
 }
 
 .container .additional-block {
+  width: 100%;
   margin-top: 100px;
 }
 

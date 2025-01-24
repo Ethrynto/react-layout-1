@@ -1,0 +1,44 @@
+.steps-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .step-card {
+    flex-basis: 23%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--light-black);
+    transition: 0.2s ease-in-out;
+    padding: 25px 20px;
+  }
+  .active-step-card {
+    border: 1px solid var(--dark-orange);
+  }
+  .step-card:hover {
+    box-shadow: 0 0 10px #1f1d1d83;
+  }
+  .step-title {
+    margin-top: 10px;
+    text-align: start;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+  }
+  .step-description {
+    margin-top: 0px;
+    text-align: start;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0px;
+  }
+  .step-image {
+    max-width: 100%;
+    padding: 10px;
+    background-color: #1f1d1d83;
+    border-radius: 10px;
+    max-height: 50px;
+    margin-bottom: 8px;
+  }
